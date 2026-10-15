@@ -1,16 +1,73 @@
-# React + Vite
+# Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive currency converter built with React that allows users to convert amounts between different currencies using exchange-rate API data.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Convert between different currencies
+- Fetch exchange rates from an API
+- Swap source and target currencies
+- Update the converted amount when inputs change
+- Responsive user interface
+- Loading and error handling for API requests
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- Exchange Rate API
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[View Live Demo](https://currency-converter-l0ybama2f-abhijits-projects-583feee0.vercel.app/)
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Navigate to the project directory:
+
+```bash
+cd currency-converter
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal.
+
+## What I Learned
+
+- Managing state with React Hooks
+- Fetching API data using `useEffect`
+- Creating and using custom hooks
+- Handling loading and error states
+- Building reusable React components
+- Styling a responsive interface with Tailwind CSS
+
+## Future Improvements
+
+- Add more currency options
+- Improve error handling
+- Add historical exchange-rate charts
+
+## Author
+
+Abhijit Paul
+
+[GitHub](https://github.com/Abhi259487/Currency-Converter) · 
